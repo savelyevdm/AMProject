@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">AM</string>
+    <string name="pager_bullet_separator" formatted="false" translatable="false">%s / %s</string>
+    <string name="content_description" translatable="false">image</string>
+    <string name="default_short" translatable="false">default</string>
+    <string name="default_long" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed urna sagittis, sollicitudin eros in, ultricies mauris. Quisque volutpat eros ac pulvinar rhoncus. Quisque malesuada ex ac gravida eleifend. Sed eget vestibulum felis, in mattis velit. Vestibulum iaculis tortor nec est finibus laoreet. Cras sed justo in magna vehicula lacinia at vel lectus. Sed faucibus, ligula ac scelerisque convallis, arcu nunc gravida ipsum, at pulvinar neque elit vel metus</string>
+    <string name="empty" translatable="false" />
+
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- USER OUTPUT -->
+
+    <string name="splash_author">by Savelyev Daniil</string>
+    <string name="splash_author_nickname">developsdm</string>
+
+    <string name="catalogue_thematic_sets_title">Thematic sets for any occasion</string>
+    <string name="catalogue_news_title">Actual in Aroma World</string>
+
+    <string name="drawer_menu_first">First</string>
+    <string name="drawer_menu_second">Second</string>
+    <string name="drawer_menu_third">Third</string>
+
+    <string name="bottom_menu_catalogues">Catalogue</string>
+    <string name="bottom_menu_sets">Sets</string>
+    <string name="bottom_menu_sales">Sales</string>
+    <string name="bottom_menu_shops">Shops</string>
+    <string name="bottom_menu_profile">Profile</string>
+
+    <string name="toolbar_menu_buy">Buy</string>
+    <string name="toolbar_menu_about">About</string>
+
+    <string name="toolbar_menu_buy_text">Buy</string>
+    <string name="toolbar_menu_about_text">Test application\nMade by Daniil Savelyev</string>
+
+    <string name="fragment_title_catalogue">Catalogue fragment</string>
+    <string name="fragment_title_sets">Sets fragment</string>
+    <string name="fragment_title_sales">Sales fragment</string>
+    <string name="fragment_title_shops">Shops fragment</string>
+    <string name="fragment_title_profile">Profile fragment</string>
+
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_no_cache">No data in cache</string>
+    <string name="error_internet_error">Internet error occurred</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7e0e2f</color>
+    <color name="colorPrimaryDark">#4f0617</color>
+    <color name="colorAccent">#fabc07</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="colorMainBackground">#f5f5f5</color>
+    <color name="colorDivider">#e0e1e3</color>
+
+    <color name="colorCatalogues">#FF0000</color>
+    <color name="colorSets">#00FF00</color>
+    <color name="colorSales">#0000FF</color>
+    <color name="colorShops">#FFFF00</color>
+    <color name="colorProfile">#00FFFF</color>
+
+    <color name="pager_bullet_active">#fefefe</color>
+    <color name="pager_bullet_inactive">#fefefe</color>
+    <color name="pager_bullet_text_indicator">#fefefe</color>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- USER OUTPUT -->
+
+    <string name="splash_author">Автор: Даниил Савельев</string>
+    <string name="splash_author_nickname">developsdm</string>
+
+    <string name="catalogue_thematic_sets_title">Тематические подборки на любой случай</string>
+    <string name="catalogue_news_title">Интересное в Ароматном Мире</string>
+
+    <string name="drawer_menu_first">Первый раздел</string>
+    <string name="drawer_menu_second">Второй раздел</string>
+    <string name="drawer_menu_third">Третий раздел</string>
+
+    <string name="bottom_menu_catalogues">Каталог</string>
+    <string name="bottom_menu_sets">Сеты</string>
+    <string name="bottom_menu_sales">Акции</string>
+    <string name="bottom_menu_shops">Магазины</string>
+    <string name="bottom_menu_profile">Профиль</string>
+
+    <string name="toolbar_menu_buy">Купить</string>
+    <string name="toolbar_menu_about">О приложении</string>
+
+    <string name="toolbar_menu_buy_text">Купить</string>
+    <string name="toolbar_menu_about_text">Тестовое приложение\nАвтор: Даниил Савельев</string>
+
+    <string name="fragment_title_catalogue">Каталог</string>
+    <string name="fragment_title_sets">Сеты</string>
+    <string name="fragment_title_sales">Акции</string>
+    <string name="fragment_title_shops">Магазины</string>
+    <string name="fragment_title_profile">Профиль</string>
+
+    <string name="error_no_internet">Отсутствует интернет соединение</string>
+    <string name="error_no_cache">Отсутствуют сохраненные данные</string>
+    <string name="error_internet_error">Ошибка при загрузке данных</string>
+</resources>

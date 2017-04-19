@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_catalogues"
+        android:enabled="true"
+        android:icon="@mipmap/ic_catalogue"
+        android:title="@string/bottom_menu_catalogues"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sets"
+        android:enabled="true"
+        android:icon="@mipmap/ic_sets"
+        android:title="@string/bottom_menu_sets"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sales"
+        android:enabled="true"
+        android:icon="@mipmap/ic_discount"
+        android:title="@string/bottom_menu_sales"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_shops"
+        android:enabled="true"
+        android:icon="@mipmap/ic_shops"
+        android:title="@string/bottom_menu_shops"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@mipmap/ic_profile"
+        android:title="@string/bottom_menu_profile"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layNewsRoot"
+    android:layout_width="@dimen/catalogue_sets_item_width"
+    android:layout_height="@dimen/catalogue_sets_item_height"
+    android:background="@drawable/back_rounded_white">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/ivNewsImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="@dimen/catalogue_sets_corner_radius"
+        tools:src="@drawable/img_default" />
+
+    <TextView
+        android:id="@+id/tvNewsDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/default_margin"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/catalogue_sets_description_text_size"
+        android:textStyle="normal"
+        tools:text="@string/default_long" />
+
+</RelativeLayout>

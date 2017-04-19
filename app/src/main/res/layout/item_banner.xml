@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layBannerRoot"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/catalogue_banners_height"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivBannerImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/colorPrimaryDark"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/am_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvBannerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/catalogue_banners_title_text_size"
+            android:textStyle="bold"
+            tools:text="@string/default_long" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_margin" />
+
+        <TextView
+            android:id="@+id/tvBannerDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="6"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/catalogue_banners_description_text_size"
+            android:textStyle="normal"
+            tools:text="@string/default_long" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

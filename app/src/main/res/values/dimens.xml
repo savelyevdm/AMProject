@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_image_size">300dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_margin_half">8dp</dimen>
+    <dimen name="splash_text_bt_margin">16dp</dimen>
+
+    <dimen name="catalogue_banners_height">280dp</dimen>
+    <dimen name="catalogue_banners_title_text_size">28sp</dimen>
+    <dimen name="catalogue_banners_description_text_size">18sp</dimen>
+    <dimen name="catalogue_sets_title_text_size">28sp</dimen>
+    <dimen name="catalogue_sets_description_text_size">24sp</dimen>
+    <dimen name="catalogue_sets_corner_radius">8dp</dimen>
+    <dimen name="catalogue_sets_item_width">300dp</dimen>
+    <dimen name="catalogue_sets_item_height">150dp</dimen>
+
+    <dimen name="pager_bullet_indicator_height">26dp</dimen>
+    <dimen name="pager_bullet_indicator_dot_margin">2dp</dimen>
+    <dimen name="pager_bullet_indicator_active_dot_diameter">6dp</dimen>
+    <dimen name="pager_bullet_indicator_inactive_dot_diameter">4dp</dimen>
+</resources>
